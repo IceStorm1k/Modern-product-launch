@@ -66,6 +66,23 @@ body {
   white-space: nowrap;
 }
 
+.main-nav button,
+.footer-top button,
+.mobile-nav button {
+  position: relative;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    color 0.25s ease;
+}
+
+.main-nav button:hover,
+.footer-top button:hover,
+.mobile-nav button:hover {
+  opacity: 0.7;
+}
+
 .learn-link {
   position: absolute;
 

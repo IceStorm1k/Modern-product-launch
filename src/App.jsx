@@ -24,10 +24,18 @@ function App() {
         </a>
 
         <nav className="main-nav" aria-label="Primary navigation">
-          <a href="#benefits">Benefits</a>
-          <a href="#specifications">Specifications</a>
-          <a href="#how-to">How-to</a>
-          <a href="#contact">Contact Us</a>
+          <a href="#benefits" onClick={() => setOpen(false)}>
+            Benefits
+          </a>
+          <a href="#specifications" onClick={() => setOpen(false)}>
+            Specifications
+          </a>
+          <a href="#how-to" onClick={() => setOpen(false)}>
+            How-to
+          </a>
+          <a href="#contact" onClick={() => setOpen(false)}>
+            Contact Us
+          </a>
         </nav>
 
         <a className="learn-link" href="#contact">
@@ -47,12 +55,52 @@ function App() {
           style={open ? { display: "flex" } : { display: "none" }}
           aria-label="Mobile primary navigation"
         >
-          <a href="#benefits">Benefits</a>
-          <a href="#specifications">Specifications</a>
-          <a href="#how-to">How-to</a>
-          <a href="#contact">Contact Us</a>
+          <a   onClick={() => {
+    document
+      .getElementById("benefits")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
 
-          <a className="mobile-learn-link" href="#learn-more">
+    setOpen(false)
+  }}>Benefits</a>
+          <a   onClick={() => {
+    document
+      .getElementById("specifications")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>Specifications</a>
+          <a   onClick={() => {
+    document
+      .getElementById("how-to")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>How-to</a>
+          <a   onClick={() => {
+    document
+      .getElementById("contact")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>Contact Us</a>
+
+          <a className="mobile-learn-link"   onClick={() => {
+    document
+      .getElementById("learn-more")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>
             Learn More ↗
           </a>
         </nav>
@@ -266,7 +314,15 @@ function App() {
                   </p>
                 </motion.div>
 
-                <a href="#specifications" className="discover-link">
+                <a   onClick={() => {
+    document
+      .getElementById("specifications")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }} className="discover-link">
                   Discover More
                 </a>
               </div>
@@ -285,7 +341,15 @@ function App() {
               You need a solution that keeps up. That’s why we developed Area. A
               developer-friendly approach to streamline your business.
             </p>
-            <a href="#specifications" className="discover-link">
+            <a   onClick={() => {
+    document
+      .getElementById("specifications")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }} className="discover-link">
               Discover More
             </a>
           </div>
@@ -428,7 +492,15 @@ function App() {
           <div className="success-top">
             <h2>Map Your Success</h2>
 
-            <a href="#contact" className="success-link">
+            <a   onClick={() => {
+    document
+      .getElementById("contact")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }} className="success-link">
               Discover More
             </a>
           </div>
@@ -524,9 +596,33 @@ function App() {
           transition={{ duration: 1.2 }}
         >
           <div className="footer-top">
-            <a href="#benefits">Benefits</a>
-            <a href="#specifications">Specifications</a>
-            <a href="#how-to">How-to</a>
+            <a   onClick={() => {
+    document
+      .getElementById("benefits")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>Benefits</a>
+            <a   onClick={() => {
+    document
+      .getElementById("specifications")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>Specifications</a>
+            <a   onClick={() => {
+    document
+      .getElementById("how-to")
+      ?.scrollIntoView({
+        behavior: "smooth",
+      })
+
+    setOpen(false)
+  }}>How-to</a>
           </div>
 
           <div className="footer-bottom">
