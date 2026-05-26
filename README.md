@@ -1,18 +1,141 @@
-# React + Vite
+# Area Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern premium SaaS landing page built with React, Vite, and custom CSS animations.  
+Designed with a strong focus on responsive layouts, smooth interactions, and editorial-style visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
 
-## React Compiler
+The project includes:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Responsive hero section
+- Animated feature cards
+- Interactive comparison table
+- Glassmorphism navigation
+- Mobile-first navigation menu
+- Adaptive layouts for desktop, tablet, and mobile
+- Smooth scrolling navigation
+- Modern CTA sections
+- Responsive footer
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS3
+- Framer Motion
+- Fontsource
+- Responsive Grid & Flexbox
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/area-landing-page.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd area-landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## Features
+
+### Responsive Design
+
+The layout dynamically adapts across:
+
+- Desktop
+- Tablet
+- Mobile devices
+
+Using:
+
+- `clamp()`
+- CSS Grid
+- Flexbox
+- Adaptive spacing system
+
+---
+
+### Animations
+
+Includes:
+
+- Smooth fade-up transitions
+- Scale image reveals
+- Hover interactions
+- Animated mobile navigation
+- Smooth scrolling
+
+Built with:
+
+- Framer Motion
+- CSS keyframe animations
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── assets/
+├── App.jsx
+├── App.css
+├── main.jsx
+```
+
+---
+
+## Fonts
+
+This project uses:
+
+- Rethink Sans
+- Reddit Mono
+
+Installed via Fontsource.
+
+---
+
+## Deployment
+
+The project can be deployed on:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## License
+
+This project is for educational and portfolio purposes.
