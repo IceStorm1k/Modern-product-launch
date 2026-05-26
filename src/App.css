@@ -983,6 +983,7 @@ body {
 
   .quote {
     gap: 50px;
+    padding-left: 0;
   }
 
   .quote-author {
@@ -1285,6 +1286,7 @@ body {
 
   .quote {
     gap: 50px;
+    padding-left: 0;
   }
 
   .quote-author {
