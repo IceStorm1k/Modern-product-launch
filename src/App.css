@@ -1454,7 +1454,7 @@ body {
 .benefit-img:hover img,
 .success-image:hover img,
 .benefits-landscape:hover {
-  transform: scale(1.06);
+  transform: scale(1.02);
 
   filter: brightness(1.04);
 }
